@@ -12,4 +12,8 @@ public class Vehicle {
 		System.out.println("VEHICLE- " + drivingMessage);
 	}
 	
+	protected int getSomeValue(){
+		return 10;
+	}
+	
 }
